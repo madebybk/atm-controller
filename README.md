@@ -10,10 +10,10 @@ Clone the project using git command:
 git clone https://github.com/madebybk/atm-controller.git
 ```
 
-This command clones directory *atm_controller* to your local machine. Navigate into the directory with the command:
+This command clones directory *atm-controller* to your local machine. Navigate into the directory with the command:
 
 ```bash
-cd atm_controller
+cd atm-controller
 ```
 
 ## Requirements
