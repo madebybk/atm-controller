@@ -1,13 +1,13 @@
-# ATM_Controller
+# ATM-Controller
 
-ATM_Controller is a simple ATM program with the following flow: *Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw*
+ATM Controller is a simple ATM program with the following flow: *Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw*
 
 ## Clone Project
 
 Clone the project using git command:
 
 ```bash
-git clone https://github.com/madebybk/atm_controller.git
+git clone https://github.com/madebybk/atm-controller.git
 ```
 
 This command clones directory *atm_controller* to your local machine. Navigate into the directory with the command:
