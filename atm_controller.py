@@ -50,14 +50,14 @@ def enter_pin(cs_info):
     """
     input_password = int(input("\nPlease enter your PIN: "))
     tries_count = 0
-    # Given there are 3 PIN attemps total, obtain the user PIN input:
+    # Given there are 3 PIN attempts total, obtain the user PIN input:
     while(tries_count < 2):
         if BankAPI().verify_password(cs_info, input_password) == True:
             # return input_password
             return True
         else:
             print("Incorrect PIN. Try again (" +
-                  str(2-tries_count) + " attemp(s) remaining)")
+                  str(2-tries_count) + " attempt(s) remaining)")
             input_password = int(input("Please enter your PIN: "))
             tries_count += 1
     return False
